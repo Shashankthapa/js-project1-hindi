@@ -1,0 +1,45 @@
+#container{
+    width : 1000px;
+    margin : auto;
+    text-align : center;
+    margin-top : 250px; 
+    border : 1px solid brown;
+}
+
+#red,#yellow,#green,#purple{
+    border : 2px solid black;
+    display : inline-block;
+    height : 100px;
+    width : 100px;
+    margin : 10px;
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: green;
+}
+
+#purple{
+    background-color: purple;
+}
+
+#inner-container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding : 30px; 
+}
+
+@media (min-width : 300px) and (max-width : 1060px){
+    
+    #container{
+        width : 100%;
+    }
+
+}
